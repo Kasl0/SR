@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin Price Converter</title>
+</head>
+<body>
+    <h1>Bitcoin Price Converter</h1>
+    <p>Get Bitcoin price in your currency:</p>
+    
+    <form id="currencyForm" action="#" method="get">
+        <label for="currency">Choose your currency:</label>
+        <select id="currency" name="currency">
+            <!-- Options will be added dynamically by JavaScript -->
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <hr>
+    <p id="apiResponse"></p>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            fetch('http://localhost:8000/myApi/currency_codes')
+            .then(response => response.json())
+            .then(data => {
+                const currencySelect = document.getElementById('currency');
+                data["Available currency codes"].forEach(currency => {
+                    const option = document.createElement('option');
+                    option.value = currency;
+                    option.textContent = currency;
+                    currencySelect.appendChild(option);
+                });
+            })
+            .catch(error => console.error('Error fetching currency data:', error));
+        });
+
+        document.getElementById('currencyForm').addEventListener('submit', function(event) {
+                event.preventDefault();
+
+                const selectedCurrency = document.getElementById('currency').value;
+                const apiUrl = "http://localhost:8000/myApi/" + selectedCurrency;
+
+                fetch(apiUrl)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    document.getElementById('apiResponse').innerText = 
+                        "Cost of 1 " + selectedCurrency + " in USD: " + data["Cost of 1 " + selectedCurrency + " in USD"] + "\n" +
+                        "Cost of 1 USD in " + selectedCurrency + ": " + data["Cost of 1 USD in " + selectedCurrency] + "\n" +
+                        "Cost of 1 BITCOIN in USD: " + data["Cost of 1 BITCOIN in USD"] + "\n" +
+                        "Cost of 1 BITCOIN in " + selectedCurrency + ": " + data["Cost of 1 BITCOIN in " + selectedCurrency];
+                })
+                .catch(error => console.error('Error fetching data:', error));
+            });
+    </script>
+</body>
+</html>
