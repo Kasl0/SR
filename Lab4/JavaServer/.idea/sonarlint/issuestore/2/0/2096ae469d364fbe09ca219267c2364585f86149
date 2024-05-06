@@ -1,0 +1,13 @@
+
+k	java:S117;"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚ËÌ¼ÿÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¹ÿØ¡
+H
+java:S2386"2Move "_iceIds" to a class and lower its visibility(ÂåÐ¶
+M
+java:S2386U"2Move "_iceOps" to a class and lower its visibility(ÜÎ×’ùÿÿÿÿ
+h	java:S100+"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»¨‹„ùÿÿÿÿ
+h	java:S1007"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ž”ñâüÿÿÿÿ
+h	java:S100I"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äÔâ‰úÿÿÿÿ
+`
+java:S1124U"EReorder the modifiers to comply with the Java Language Specification.(ÜÎ×’ùÿÿÿÿ
+6	java:S131j""Add a default case to this switch.(¸ÒûV
