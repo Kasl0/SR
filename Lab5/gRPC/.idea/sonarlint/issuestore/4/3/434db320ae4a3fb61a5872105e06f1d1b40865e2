@@ -1,0 +1,61 @@
+
+g	java:S117·"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÓ¡€
+u
+java:S1488î"_Immediately return this expression instead of assigning it to the temporary variable "builder".(«‰Ÿ~
+h	java:S1161"SRename this field "msgType_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜŸá•
+n	java:S116D"TRename this field "senderId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûåüíúÿÿÿÿ
+i	java:S116k"TRename this field "targetId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó”âñ
+n	java:S116’"SRename this field "message_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²Ü‰¹úÿÿÿÿ
+
+java:S4144İ"cUpdate this method so that its implementation is not identical to "getDefaultInstance" on line 825.(¼¯ëøÿÿÿÿ
+F
+java:S1948D"+Make "senderId_" transient or serializable.(ûåüíúÿÿÿÿ
+A
+java:S1948k"+Make "targetId_" transient or serializable.(Ó”âñ
+F
+java:S1948’"*Make "message_" transient or serializable.(²Ü‰¹úÿÿÿÿ
+r
+java:S3077D"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(ûåüíúÿÿÿÿ
+m
+java:S3077k"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(Ó”âñ
+s
+java:S3077’"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(²Ü‰¹úÿÿÿÿ
+a
+java:S6201L"FReplace this instanceof check and cast with 'instanceof String string'(õõáÀÿÿÿÿÿ
+a
+java:S6201^"FReplace this instanceof check and cast with 'instanceof String string'(õõáÀÿÿÿÿÿ
+a
+java:S6201s"FReplace this instanceof check and cast with 'instanceof String string'(õõáÀÿÿÿÿÿ
+b
+java:S6201…"FReplace this instanceof check and cast with 'instanceof String string'(õõáÀÿÿÿÿÿ
+b
+java:S6201š"FReplace this instanceof check and cast with 'instanceof String string'(õõáÀÿÿÿÿÿ
+b
+java:S6201¬"FReplace this instanceof check and cast with 'instanceof String string'(õõáÀÿÿÿÿÿ
+W
+java:S1126ı"AReplace this if-then-else statement by a single return statement.(ûÿ½%
+h
+java:S3252í"QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾
+k	java:S116¡"URename this field "bitField0_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö»³Ä
+i	java:S116£"SRename this field "msgType_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜŸá•
+j	java:S116Ø"TRename this field "senderId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥Öß­
+o	java:S116 "TRename this field "targetId_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç£•şÿÿÿÿ
+n	java:S116è"SRename this field "message_" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆ«Ï‚úÿÿÿÿ
+h
+java:S3252‹"QUse static access with "com.google.protobuf.AbstractMessage" for "BuilderParent".(ÔÈı¾
+d
+java:S6201È"HReplace this instanceof check and cast with 'instanceof Message message'(°©Ëıÿÿÿÿ
+W	java:S125˜"<This block of commented-out lines of code should be removed.(““ùûÿÿÿÿ
+R	java:S125™"<This block of commented-out lines of code should be removed.(¯Ë¶‡
+b
+java:S6201ß"FReplace this instanceof check and cast with 'instanceof String string'(Á¿Ö¨üÿÿÿÿ
+]
+java:S6201ğ"FReplace this instanceof check and cast with 'instanceof String string'(‡ñ÷
+b
+java:S6201§"FReplace this instanceof check and cast with 'instanceof String string'(Á¿Ö¨üÿÿÿÿ
+]
+java:S6201¸"FReplace this instanceof check and cast with 'instanceof String string'(‡ñ÷
+b
+java:S6201ï"FReplace this instanceof check and cast with 'instanceof String string'(Á¿Ö¨üÿÿÿÿ
+]
+java:S6201€"FReplace this instanceof check and cast with 'instanceof String string'(‡ñ÷
