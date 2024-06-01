@@ -6,3 +6,5 @@
 4. [Middleware pt.1](Lab4) (Java, Python, Ice framework)
 5. [Middleware pt.2](Lab5) (Java, JavaScript, gRPC framework)
 6. [RabbitMQ](Lab6) (Java)
+7. [Zookeeper](Lab7) (Java)
+   
